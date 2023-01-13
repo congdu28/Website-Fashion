@@ -1,0 +1,20 @@
+.menu-info{
+    position: relative;
+    overflow: hidden;
+}
+.info-user{
+    display: flex;
+    transform: translateY(-500%);
+    flex-direction: column;
+    padding-left:10px ;
+    transition: all 0.25s;
+}
+.info-user li{
+    margin-top: 5px;
+}
+.text-info:hover ~ .info-user{
+    transform: translateY(0%);
+}
+.menu-info:hover > .info-user{
+    transform: translateY(0%);
+}

@@ -1,0 +1,9 @@
+.page-item{
+    border: 1px solid #ccc;
+    padding: 5px 9px;
+    color: #000;
+}
+.current-page{
+    background: #666;
+    color: #FFF;
+}

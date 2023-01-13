@@ -1,0 +1,27 @@
+.fa-times-circle:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all 0.1s;
+   }
+   .details{
+    overflow: scroll;
+    height: 80vh;
+    transform: translateY(-200%);
+    position: relative;
+    background-color: white;
+    z-index: 7;
+    position: fixed;
+    top: 10%;
+    right: 10%;
+    left:10%;
+   }
+   .overflow{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 5;
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+   }
